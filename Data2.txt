@@ -1,0 +1,42 @@
+1
+Lab 3
+Lab 3 solution
+1
+dirt IN [0,100]
+softness IN [0,100]
+time OUT [0,60]
+x
+4
+2
+dirt
+small TRAP 0 0 20 40
+medium TRAP 20 40 60 80  
+large TRAP 60 80 100 100
+x
+2
+softness
+soft TRAP 0 0 20 40
+ordinary TRAP 20 40 60 80 
+stiff TRAP 60 80 100 100
+x
+2
+time
+very_small TRI 0 0 15
+small TRI 0 15 30
+standard TRI 15 30 45
+large TRI 30 45 60
+very_large TRI 45 60 60
+x
+3
+dirt small and softness soft => time very_small
+dirt medium and softness ordinary => time standard
+dirt medium and softness soft => time small
+dirt medium and softness stiff => time large
+dirt large and_not softness soft => time very_large
+dirt large and softness soft => time standard
+x
+4
+60
+25
+Close
+2

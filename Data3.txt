@@ -1,0 +1,47 @@
+1
+Lecture 10
+Lecture 10 solution
+1
+OP IN [0,100]
+PDP IN [0,100]
+PYDP IN [0,100]
+CP OUT [0,60]
+x
+4
+2
+OP
+L TRI 0 0 50
+M TRI 0 50 100 
+H TRI 50 100 100
+x
+2
+PDP
+L TRI 0 0 50
+M TRI 0 50 100 
+H TRI 50 100 100
+x
+2
+PYDP
+L TRI 0 0 50
+M TRI 0 50 100 
+H TRI 50 100 100
+x
+2
+CP
+VL TRI 0 0 25
+L TRI 0 25 50
+M TRI 25 50 75
+H TRI 50 75 100
+VH TRI 75 100 100
+x
+3
+OP L and PDP M => CP L
+OP M or PDP L => CP M
+_not PDP H and PYDP L => CP H
+x
+4
+40
+30
+70
+Close
+2
